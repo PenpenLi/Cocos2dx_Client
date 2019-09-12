@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ParticleProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Users\Administrator.PC-201705181317\Desktop\新神灯\NewParticle</ProjectDir>
+  <Version>1.4.0.1</Version>
+  <Resources>C:\Users\Administrator.PC-201705181317\Desktop\新神灯\NewParticle\Resources</Resources>
+  <Name>NewParticle</Name>
+  <JsonFileName>NewParticle.json</JsonFileName>
+  <JsonFolder>C:\Users\Administrator.PC-201705181317\Desktop\新神灯\NewParticle\Plist</JsonFolder>
+  <JsonList>
+    <string>NewParticle_1.plist</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>0</Width>
+    <Height>0</Height>
+  </CanvasSize>
+  <filePath>C:\Users\Administrator.PC-201705181317\Desktop\新神灯\NewParticle\NewParticle.xml.particle</filePath>
+  <ProjectType>ParticleProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <PlistSuffix>.plist</PlistSuffix>
+  <CurrentParticlePlist>NewParticle_1.plist</CurrentParticlePlist>
+</ParticleProject>

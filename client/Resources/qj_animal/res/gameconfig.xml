@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<Gift_>
+	   <!--礼品栏  3机台类型  最多4人 dis_位置间距 scale 图标缩放值-->
+	  <type_num num="3" playernum="4" gift_type_num="5"/> 
+	  <type0 dis_="70" scale="0.5" x0="900" y0="680" x1="0"     y1="600" x2="0"      y2="600" x3="0"     y3="600"/>
+	  <type1 dis_="70" scale="0.5" x0="100" y0="850" x1="100"   y1="850" x2="100"    y2="850" x3="100"   y3="850"/>
+	  <type2 dis_="70" scale="0.5" x0="100" y0="850" x1="100"   y1="850" x2="100"    y2="850" x3="100"   y3="850"/>
+	</Gift_>
+	<Particle>
+		<!--粒子效果-->
+		<filename value="game_res/Particle/"/>
+		<!--一网打尽爆炸-->
+		<ParticleType1 plist="game_res/Particle/Boom.plist"	path="game_res/Particle/Boom.png"	imageW="64" imageH="64" EmissionRate="2000"	/>
+		<!--鱼雷爆炸-->
+		<ParticleType2 plist="game_res/Particle/Boom.plist"	path="game_res/Particle/Boom.png"	imageW="64" imageH="64"	EmissionRate="2000"	/>
+		<!--定海-->
+		<ParticleType3 plist="game_res/Particle/ding.plist"	path="game_res/Particle/ding.png"	imageW="64" imageH="64"	EmissionRate="2000"	/>
+		<!--海啸来袭爆炸-->
+		<ParticleType4 plist="game_res/Particle/Boom.plist"	path="game_res/Particle/Boom.png"	imageW="64" imageH="64"	EmissionRate="2000"	/>
+		
+		<ring1 path="game_res/Particle/ring1.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		<ring2 path="game_res/Particle/ring2.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		<ring3 path="game_res/Particle/wsparticle_05.png" hotspotX="64" hotspotY="64"  Width="128" Height="128"/>
+		<ring4 path="game_res/Particle/ring4.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		<ring5 path="game_res/Particle/ring5.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		<ring6 path="game_res/Particle/ring6.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		
+		<light0 path="game_res/Particle/light0.png" hotspotX="41" hotspotY="41"  Width="82" Height="82"/>
+		<light1 path="game_res/Particle/light1.png" hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<light2 path="game_res/Particle/light2.png" hotspotX="23" hotspotY="23"  Width="46" Height="46"/>
+		<light3 path="game_res/Particle/light3.png" hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<light4 path="game_res/Particle/light4.png" hotspotX="16" hotspotY="38"  Width="33" Height="76"/>
+		<light5 path="game_res/Particle/light5.png" hotspotX="51" hotspotY="50"  Width="103" Height="100"/>
+		<light6 path="game_res/Particle/light6.png" hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		
+		<light7  path="game_res/Particle/light7.png"   hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		<light8  path="game_res/Particle/light8.png"   hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		<light9  path="game_res/Particle/light9.png"   hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		<light10 path="game_res/Particle/light10.png"  hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		<light11 path="game_res/Particle/light11.png"  hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		
+	</Particle>
+
+    <Effect>
+	    <Effect0    path="game_res/Particle/effect2.png"     Frame="6" fps="6" hotspotX="82" hotspotY="63" RectX="0" RectY="0" RectWidth="164" RectHeight="127"/>	
+		<Effect1    path="game_res/Particle/Effect4.png"     Frame="6" fps="6" hotspotX="72" hotspotY="93" RectX="0" RectY="0" RectWidth="145" RectHeight="186"/>
+		<Effect2    path="game_res/Particle/effect6.png"     Frame="4" fps="4" hotspotX="70" hotspotY="82" RectX="0" RectY="0" RectWidth="141" RectHeight="165"/>
+		<Effect3    path="game_res/Particle/effect7.png"     Frame="6" fps="6" hotspotX="85" hotspotY="65" RectX="0" RectY="0" RectWidth="171" RectHeight="130"/>
+		<Effect4    path="game_res/Particle/effect8.png"     Frame="5" fps="5" hotspotX="70" hotspotY="85" RectX="0" RectY="0" RectWidth="141" RectHeight="171"/>
+	</Effect>
+    <message>
+	  <message_back path="game_res/message_bg.png" />
+	</message>
+	<jetton>
+	    <jetton path="game_res/jetton.png"        hotspotX="32" hotspotY="273"  Width="32" Height="372"/>
+		<jetton_num path="game_res/jetton_num.png"  Frame="10" fps="10" hotspotX="6" hotspotY="8" RectX="0" RectY="0" RectWidth="12" RectHeight="17"/>
+		<jetton_bgc1 path="game_res/jetton_bgc1.png"    hotspotX="37" hotspotY="9"  Width="75" Height="18"/>
+		<jetton_bgc2 path="game_res/jetton_bgc2.png"    hotspotX="37" hotspotY="9"  Width="75" Height="18"/>
+	</jetton>
+	<cannon>
+	 <yellow_people_fly   path="game_res/yellowpeople/yellow_people_fly.png" Frame="2" fps="10" hotspotX="150" hotspotY="50" RectX="0" RectY="0" RectWidth="174" RectHeight="140"/>
+	 <yellow_people_atack path="game_res/yellowpeople/yellow_people_attack.png" Frame="2" fps="10" hotspotX="40" hotspotY="40" RectX="0" RectY="0" RectWidth="174" RectHeight="140"/>
+	 <yellow_people_dle   path="game_res/yellowpeople/yellow_people_dle.png" Frame="31" fps="15" hotspotX="40" hotspotY="50" RectX="0" RectY="0" RectWidth="174" RectHeight="140" />
+	 <cannon_fire   path="game_res/cannon/GunFire.png"   Frame="3" fps="12" hotspotX="34" hotspotY="31" RectX="0" RectY="0" RectWidth="69" RectHeight="63" />
+	 <credit_num    path="game_res/credit_num.png"        Frame="10" fps="10" hotspotX="10" hotspotY="11" RectX="0" RectY="0" RectWidth="20" RectHeight="23"/>
+	 <cannon_num    path="game_res/cannon/cannon_num.png"     Frame="10" fps="10" hotspotX="7" hotspotY="9" RectX="0" RectY="0" RectWidth="14" RectHeight="19"/>
+	 <cannondouble_Prompt_Num path="game_res/cannon/DoubleEffectNumber.png"    Frame="10" fps="10" hotspotX="7" hotspotY="9" RectX="0" RectY="0" RectWidth="22" RectHeight="26"/>
+	 <cannondouble_Prompt     path="game_res/cannon/DoubleEffect11.png"    hotspotX="50" hotspotY="110"  Width="400" Height="120"/>
+	 <cannonarmor_Prompt      path="game_res/cannon/chuanjiadantip.png"    hotspotX="50" hotspotY="110"  Width="400" Height="120"/>
+	 <cannonfree_Prompt       path="game_res/cannon/free_bullet.png"       hotspotX="50" hotspotY="110"  Width="400" Height="120"/> 
+	 <card_ion path="game_res/cannon/card_ion.png"           hotspotX="50" hotspotY="110"  Width="105" Height="107" />
+	 <chuanjiacard_ion path="game_res/cannon/chuanjiacard_ion.png"   hotspotX="40" hotspotY="53"  Width="80" Height="106"/>
+	 <freecard_ion path="game_res/cannon/freecardcard_ion.png"       hotspotX="40" hotspotY="53"  Width="80" Height="106"/>
+	 <card_ionEx path="game_res/cannon/card_ionEx.png"                     hotspotX="40" hotspotY="110"  Width="80" Height="107" />
+	 <chuanjiacard_ionEx path="game_res/cannon/chuanjiacard_ion.png"      hotspotX="40" hotspotY="53"  Width="80" Height="106"/>
+	 <freecard_ionEx path="game_res/cannon/freecardcard_ionEx.png"        hotspotX="40" hotspotY="53"  Width="80" Height="107"/> 
+	</cannon>
+	<Animal>
+	 <Win_Back_Pic   path="game_res/Animal/or1.png"    hotspotX="30" hotspotY="30"  Width="60" Height="61"/>
+	 <win_num1 path="game_res/Animal/win_num1.png"   Frame="11" fps="11"      hotspotX="10" hotspotY="11" RectX="0" RectY="0" RectWidth="54" RectHeight="62" baseAngle="0"/>
+	 <Win_action _scale1="1" _scale2="1" _scale3="1" state="1" movSpeed="1"/>
+	 <Animal_num num="17"/>
+	 <a0_ name_path="game_res/Animal/name_ef/0.png"    hotspotX="64" hotspotY="36"  Width="60" Height="100" RectWidth="60" RectHeight="100" baseAngle="0" scale="1"/>
+	 <a1_ name_path="game_res/Animal/name_ef/1.png"    hotspotX="64" hotspotY="36"  Width="200" Height="150" RectWidth="180" RectHeight="120" baseAngle="0" scale="1"/>
+	 <a2_ name_path="game_res/Animal/name_ef/2.png"    hotspotX="64" hotspotY="36"  Width="200" Height="150" RectWidth="180" RectHeight="120" baseAngle="0" scale="1"/>
+	 <a3_ name_path="game_res/Animal/name_ef/3.png"    hotspotX="64" hotspotY="36"  Width="80" Height="98" RectWidth="80" RectHeight="98" baseAngle="0" scale="1"/>
+	 <a4_ name_path="game_res/Animal/name_ef/4.png"    hotspotX="64" hotspotY="36"  Width="60" Height="120" RectWidth="60" RectHeight="120" baseAngle="0" scale="1"/>
+	 <a5_ name_path="game_res/Animal/name_ef/5.png"    hotspotX="64" hotspotY="36"  Width="70" Height="120" RectWidth="70" RectHeight="120" baseAngle="0" scale="1"/>
+	 <a6_ name_path="game_res/Animal/name_ef/6.png"    hotspotX="64" hotspotY="36"  Width="90" Height="108" RectWidth="90" RectHeight="108" baseAngle="0" scale="1"/>
+	 <a7_ name_path="game_res/Animal/name_ef/7.png"    hotspotX="64" hotspotY="36"  Width="70"  Height="118" RectWidth="70"  RectHeight="118" baseAngle="0" scale="1"/>
+	 <a8_ name_path="game_res/Animal/name_ef/8.png"    hotspotX="64" hotspotY="36"  Width="150" Height="180" RectWidth="150" RectHeight="180" baseAngle="1800" scale="0.5"/>
+	 <a9_ name_path="game_res/Animal/name_ef/9.png"    hotspotX="64" hotspotY="36"  Width="100" Height="142" RectWidth="100" RectHeight="142" baseAngle="0" scale="1"/>
+	 <a10_ name_path="game_res/Animal/name_ef/10.png"  hotspotX="64" hotspotY="36"  Width="150" Height="140" RectWidth="150" RectHeight="140" baseAngle="0" scale="1"/>		
+	 <a11_ name_path="game_res/Animal/name_ef/11.png"  hotspotX="64" hotspotY="36"  Width="140" Height="172" RectWidth="140" RectHeight="172" baseAngle="0" scale="1"/>
+	 <a12_ name_path="game_res/Animal/name_ef/12.png"  hotspotX="64" hotspotY="36"  Width="127" Height="156" RectWidth="127" RectHeight="156" baseAngle="0" scale="1"/>	
+	 <a13_ name_path="game_res/Animal/name_ef/13.png"  hotspotX="64" hotspotY="36"  Width="217" Height="200" RectWidth="217" RectHeight="200" baseAngle="0" scale="1"/>	
+	 <a14_ name_path="game_res/Animal/name_ef/14.png"  hotspotX="64" hotspotY="36"  Width="162" Height="230" RectWidth="162" RectHeight="230" baseAngle="0" scale="1"/>
+	 <a15_ name_path="game_res/Animal/name_ef/15.png"  hotspotX="64" hotspotY="36"  Width="248" Height="200" RectWidth="248" RectHeight="200" baseAngle="0" scale="1"/>
+	 <a16_ name_path="game_res/Animal/name_ef/16.png"  hotspotX="64" hotspotY="36"  Width="500" Height="260" RectWidth="500" RectHeight="260" baseAngle="0" scale="1"/>
+	 <CJ_BOSS path="game_res/Animal/CJ_BOSS.png"   plistpath="game_res/Animal/CJ_BOSS.plist" FrameSpeed1="0.04" FrameSpeed2="0.04" FrameSpeed3="0.04"/>
+	 <win_num path="game_res/win_num.png"   Frame="11" fps="11"      hotspotX="50" hotspotY="55" RectX="0" RectY="0" RectWidth="100" RectHeight="110" baseAngle="0"/>
+	 <Kind_Effect path="game_res/Animal/vbd_.png"   Frame="25" fps="25"      hotspotX="80" hotspotY="45" RectX="0" RectY="0" RectWidth="150" RectHeight="90" baseAngle="0"/>
+	 <score_num        path="game_res/score_num.png" Frame="10" fps="0.5" hotspotX="46" hotspotY="19" RectX="0" RectY="0" RectWidth="33" RectHeight="38"/>
+	 <score_num_small  path="game_res/score_num_small.png" Frame="10" fps="0.5"  hotspotX="46" hotspotY="19" RectX="0" RectY="0" RectWidth="33" RectHeight="38"/>
+	 <yunxuan     path="game_res/yunxuan.png"  Frame="5" fps="5" hotspotX="62" hotspotY="53" RectX="0" RectY="0" RectWidth="124" RectHeight="106" />
+	<Fish_Word0  path="game_res/haoxian.png"  Frame="1" fps="1"   hotspotX="37" hotspotY="28"  RectX="0" RectY="0" RectWidth="75" RectHeight="56"/>
+	</Animal>
+	
+    <bullet> 	  	  	  
+	  <net2       path="game_res/net/net2.png"         Frame="9"  fps="9" hotspotX="145" hotspotY="121" RectX="0" RectY="0" RectWidth="290" RectHeight="242" />
+	  <net3       path="game_res/net/net3.png"         Frame="9"  fps="9" hotspotX="145" hotspotY="157" RectX="0" RectY="0" RectWidth="290" RectHeight="314" />
+	  <net4       path="game_res/net/net4.png"         Frame="10" fps="10" hotspotX="180" hotspotY="180" RectX="0" RectY="0" RectWidth="360" RectHeight="360" />
+	  <net_light  path="game_res/net/BulletLight.png"  Frame="13" fps="13" hotspotX="166" hotspotY="166" RectX="0" RectY="0" RectWidth="332" RectHeight="332" />	  
+ 	</bullet>
+	<bingo>
+	   <bingo_num    path="game_res/prize/bingo_num.png"   Frame="11" fps="11" hotspotX="55"  hotspotY="55" RectX="0" RectY="0" RectWidth="100" RectHeight="110"/>
+	   <bingo        path="game_res/prize/bingo.png"       Frame="15" fps="15" hotspotX="200" hotspotY="200" RectX="0" RectY="0" RectWidth="400" RectHeight="400"/>
+	</bingo>
+	<bingoEx>
+	   <bingo_numEx    path="game_res/prize/bingo_num1.png"   Frame="10" fps="10" hotspotX="25"  hotspotY="30" RectX="0" RectY="0" RectWidth="50" RectHeight="60"/>
+	   <bingoEx        path="game_res/prize/bingo11.png"       Frame="10" fps="10" hotspotX="128" hotspotY="128" RectX="0" RectY="0" RectWidth="256" RectHeight="256"/>
+	</bingoEx>
+    <coin>
+	   <coin2 path="game_res/coin2.png" Frame="10" fps="10" hotspotX="25" hotspotY="25" RectX="0" RectY="0" RectWidth="50" RectHeight="50"/>
+	   <coin1 path="game_res/coin1.png" Frame="12" fps="12" hotspotX="45" hotspotY="45" RectX="0" RectY="0" RectWidth="90" RectHeight="90"/>
+	</coin>
+	<!--//////////////////////游戏音效///////////////////////////////////-->
+	<Sound>
+		<filename value="game_res/Sound/Fish/" />
+		<!--背景音乐-->
+		<bgm_normal1 value="game_res/sounds/bgm/bgm1.mp3" />
+		<bgm_normal2 value="game_res/sounds/bgm/bgm2.mp3" />
+		<bgm_normal3 value="game_res/sounds/bgm/bgm3.mp3" />
+		<bgm_normal4 value="game_res/sounds/bgm/bgm4.mp3" />	
+		<effect_cannon_switch value="game_res/sounds/effect/cannonSwitch.mp3" />
+		<effect_casting value="game_res/sounds/effect/casting.mp3" />
+		<effect_catch value="game_res/sounds/effect/catch.mp3" />
+		<effect_fire value="game_res/sounds/effect/fire.wav" />	
+		<effect_Animal0 value="game_res/Animal/name_ef/0.mp3" />
+		<effect_Animal1 value="game_res/Animal/name_ef/1.mp3" />
+		<effect_Animal2 value="game_res/Animal/name_ef/2.mp3" />
+		<effect_Animal3 value="game_res/Animal/name_ef/3.mp3" />
+		<effect_Animal4 value="game_res/Animal/name_ef/4.mp3" />
+		<effect_Animal5 value="game_res/Animal/name_ef/5.mp3" />
+		<effect_Animal6 value="game_res/Animal/name_ef/6.mp3" />
+		<effect_Animal7 value="game_res/Animal/name_ef/7.mp3" />
+		<effect_Animal8 value="game_res/Animal/name_ef/8.mp3" />
+		<effect_Animal13 value="game_res/Animal/name_ef/9.mp3" />
+		<effect_Animal12 value="game_res/Animal/name_ef/10.mp3" />
+		<effect_Animal11 value="game_res/Animal/name_ef/11.mp3" />
+		<effect_Animal10 value="game_res/Animal/name_ef/12.mp3" />
+		<effect_Animal9 value="game_res/Animal/name_ef/13.mp3" />
+		<effect_Animal14 value="game_res/Animal/name_ef/14.mp3" />
+		<effect_Animal15 value="game_res/Animal/name_ef/15.mp3" />	
+		<effect_superarm value="game_res/sounds/effect/superarm.mp3" />
+		<effect_bingo value="game_res/sounds/effect/music_win_01.mp3" />
+		<effect_wave value="game_res/sounds/effect/scene_change.wav" />
+		
+	</Sound>
+
+
+</root>

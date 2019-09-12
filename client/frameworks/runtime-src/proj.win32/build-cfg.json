@@ -1,0 +1,14 @@
+{
+    "copy_resources": [
+        {
+            "from": "../../../Resources",
+            "to": ""
+        },
+        {
+            "from": "../../../config.json",
+            "to": ""
+        }
+    ],
+    "must_copy_resources": [
+    ]
+}

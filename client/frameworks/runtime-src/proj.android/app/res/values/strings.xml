@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bá chủ đại dương</string>
+    <string name="appID">2765656086502505637</string>
+    <string name="facebook_app_id">1956793424421117</string>
+    <string name="fb_login_protocol_scheme">fb1956793424421117</string>
+    <string name="title_facebook_login">Facebook</string>
+    <string name="label_back">Trở về</string>
+    <string name="appsflyer_dev_key">H2TkYVVsugdpEg27xQCdum</string>
+</resources>

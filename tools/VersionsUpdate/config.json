@@ -1,0 +1,30 @@
+{
+	"username":"lizhikang",
+	"password":"123456",
+	"secretKey":"Template3172",
+	"secretSign":"baiqidun",
+	"xxhashEnable":false,
+	"xxhashSeed":0,
+	"support64bit":true,
+	"svnUrl":"http://127.0.0.1/svn/HYZW/client/Resources",
+	"sources":"project",
+	"export":"export",
+	"exthold":[],
+	"modules":
+	{
+		"main":[36],
+		"fullmain":[32],
+		"caidaxiao":[4],
+		"buyu1":[16],
+		"liushiwangchao":[16],
+		"att2":[4],
+		"bairenniuniu":[4],
+		"buyu2":[16],
+		"haiwang":[16],
+		"lianhuanduobao":[16],
+		"qj_animal":[16],
+		"wacaibao":[4],
+		"shuiguoshijie":[4],
+		"daxiao":[16]
+	}
+}

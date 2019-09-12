@@ -1,0 +1,19 @@
+info face="Î¢ÈíÑÅºÚ" size=32 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=32 base=26 scaleW=3765 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="animation.png"
+chars count=15
+char id=97   x=0     y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=98   x=251   y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=99   x=502   y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=100  x=753   y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=101  x=1004  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=102  x=1255  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=103  x=1506  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=104  x=1757  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=105  x=2008  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=106  x=2259  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=107  x=2510  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=108  x=2761  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=109  x=3012  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=110  x=3263  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15
+char id=111  x=3514  y=0     width=250   height=250   xoffset=0     yoffset=0     xadvance=250   page=0  chnl=15

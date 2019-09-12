@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\Platforms\HYZW\client\MainUI</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>D:\Platforms\HYZW\client\MainUI\Resources</Resources>
+  <Name>MainUI</Name>
+  <JsonFileName>MainUI.json</JsonFileName>
+  <JsonFolder>D:\Platforms\HYZW\client\MainUI\Json</JsonFolder>
+  <JsonList>
+    <string>ui_main_load.json</string>
+    <string>ui_main_load_ipx.json</string>
+    <string>ui_main_notice.json</string>
+    <string>ui_main_shopItem.json</string>
+    <string>ui_main_rank_gold_item.json</string>
+    <string>ui_main_warmTips.json</string>
+    <string>ui_main_recharge.json</string>
+    <string>ui_main_recharge_zalopay.json</string>
+    <string>ui_main_recharge_zalopay_item.json</string>
+    <string>ui_main_zalopay_help.json</string>
+    <string>ui_main_customer_chat.json</string>
+    <string>ui_main_customer_item.json</string>
+    <string>ui_main_recharge_momo.json</string>
+    <string>ui_main_recharge_momo_item.json</string>
+    <string>ui_main_momo_help.json</string>
+    <string>ui_main_recharge_ipx.json</string>
+    <string>haiwang_bt_ui_1.json</string>
+    <string>haiwang_bt_ui_4.json</string>
+    <string>Player_Ex_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>D:\Platforms\HYZW\client\MainUI\MainUI.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <imagePngList>
+    <string>haiwang/res/HW/Json/bt_image/ring.png</string>
+    <string>haiwang/res/HW/Json/bt_image/settlement.png</string>
+    <string>haiwang/res/HW/Json/bt_image/setting.png</string>
+    <string>haiwang/res/HW/Json/bt_image/rate_bt.png</string>
+    <string>haiwang/res/HW/Json/bt_image/back_.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>haiwang_bt_ui_4.json</CurrentUIJson>
+</UIProject>

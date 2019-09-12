@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <version>
+	<!-- 版本日期大的更新 update：1更新 0不更新 over：1覆盖 0不覆盖（当为1时，不考虑日期及update）-->
+	<version data="2015010901" update="1" cover="1" />
+  </version>
+	<!--//////////////////////游戏场景/////////////////////////////////////-->
+	<MainFile>
+		<filename    value="G_xyxm" />
+		<bg		     value="G_xyxm/images/logo.png" />
+		<Title       value="G_xyxm/images/Title.png" />
+		<jindu_bg    value="G_xyxm/images/loading_bk.png" />
+		<jindu       value="G_xyxm/images/loading_bar.png" />
+		<BT_Sound    value="lobby/images/FrameDlg/setting/BT_Sound.png" />
+		<BTN_BANK    value="lobby/images/FrameDlg/btn/BTN_BANK.png" />
+	</MainFile>
+    <Error_SYS>
+	  <sys_error0 path="G_xyxm/images/SystemInfo/CommunicationFault.png"/>
+	  <sys_error1 path="G_xyxm/images/SystemInfo/SystemFial.png"/>
+	  <sys_error2 path="G_xyxm/images/SystemInfo/TimeUP.png"/>
+	  <sys_error3 path="G_xyxm/images/SystemInfo/UnLoadUSB.png"/>
+	  <sys_error4 path="G_xyxm/images/SystemInfo/USBFault.png"/>
+	</Error_SYS>
+	<Error_Player>  
+	  <palyer_error0 path="G_xyxm/images/SystemInfo/CoinFault.png"/>
+	  <palyer_error1 path="G_xyxm/images/SystemInfo/CoinFault1.png"/>
+	  <palyer_error2 path="G_xyxm/images/SystemInfo/RerutnCoin.png"/>
+	  <palyer_error3 path="G_xyxm/images/SystemInfo/RerutnTicket.png"/>
+	  <palyer_error4 path="G_xyxm/images/SystemInfo/TiketFault.png"/>
+	  <palyer_error5 path="G_xyxm/images/SystemInfo/TiketFault1.png"/>
+	  <palyer_error6 path="G_xyxm/images/SystemInfo/ToubiError.png"/>
+	  <palyer_error7 path="G_xyxm/images/SystemInfo/Bone.png"/>
+	</Error_Player>
+	<Gift_>
+	   <!--礼品栏  3机台类型  最多4人 dis_位置间距 scale 图标缩放值-->
+	  <type_num num="3" playernum="4" gift_type_num="5"/> 
+	  <type0 dis_="70" scale="0.5" x0="900" y0="680" x1="0"     y1="600" x2="0"      y2="600" x3="0"     y3="600"/>
+	  <type1 dis_="70" scale="0.5" x0="100" y0="850" x1="100"   y1="850" x2="100"    y2="850" x3="100"     y3="850"/>
+	  <type2 dis_="70" scale="0.5" x0="100" y0="850" x1="100"   y1="850" x2="100"  y2="850" x3="100" y3="850"/>
+	</Gift_>
+	<Particle>
+		<!--粒子效果-->
+		<filename value="Particle/"/>
+		<!--一网打尽爆炸-->
+		<ParticleType1 plist="Particle/Boom.plist"	path="TTFJ/images/Particle/Boom.png"	imageW="64" imageH="64" EmissionRate="2000"	/>
+		<!--鱼雷爆炸-->
+		<ParticleType2 plist="Particle/Boom.plist"	path="TTFJ/images/Particle/Boom.png"	imageW="64" imageH="64"	EmissionRate="2000"	/>
+		<!--定海-->
+		<ParticleType3 plist="Particle/ding.plist"	path="TTFJ/images/Particle/ding.png"	imageW="64" imageH="64"	EmissionRate="2000"	/>
+		<!--海啸来袭爆炸-->
+		<ParticleType4 plist="Particle/Boom.plist"	path="TTFJ/images/Particle/Boom.png"	imageW="64" imageH="64"	EmissionRate="2000"	/>
+		
+		<ring1 path="Particle/ring1.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		<ring2 path="Particle/ring2.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		<ring3 path="Particle/wsparticle_05.png" hotspotX="64" hotspotY="64"  Width="128" Height="128"/>
+		<ring4 path="Particle/ring4.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		<ring5 path="Particle/ring5.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		<ring6 path="Particle/ring6.png" hotspotX="256" hotspotY="256"  Width="512" Height="512"/>
+		
+		<light0 path="Particle/light0.png" hotspotX="41" hotspotY="41"  Width="82" Height="82"/>
+		<light1 path="Particle/light1.png" hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<light2 path="Particle/light2.png" hotspotX="23" hotspotY="23"  Width="46" Height="46"/>
+		<light3 path="Particle/light3.png" hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<light4 path="Particle/light4.png" hotspotX="16" hotspotY="38"  Width="33" Height="76"/>
+		<light5 path="Particle/light5.png" hotspotX="51" hotspotY="50"  Width="103" Height="100"/>
+		<light6 path="Particle/light6.png" hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		
+		<light7  path="Particle/light7.png"   hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		<light8  path="Particle/light8.png"   hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		<light9  path="Particle/light9.png"   hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		<light10 path="Particle/light10.png"  hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		<light11 path="Particle/light11.png"  hotspotX="50" hotspotY="50"  Width="100" Height="100"/>
+		
+	</Particle>
+
+    <Effect>
+	    <Effect0    path="G_xyxm/images/Particle/effect2.png"     Frame="6" fps="6" hotspotX="82" hotspotY="63" RectX="0" RectY="0" RectWidth="164" RectHeight="127"/>	
+		<Effect1    path="G_xyxm/images/Particle/Effect4.png"     Frame="6" fps="6" hotspotX="72" hotspotY="93" RectX="0" RectY="0" RectWidth="145" RectHeight="186"/>
+		<Effect2    path="G_xyxm/images/Particle/effect6.png"     Frame="4" fps="4" hotspotX="70" hotspotY="82" RectX="0" RectY="0" RectWidth="141" RectHeight="165"/>
+		<Effect3    path="G_xyxm/images/Particle/effect7.png"     Frame="6" fps="6" hotspotX="85" hotspotY="65" RectX="0" RectY="0" RectWidth="171" RectHeight="130"/>
+		<Effect4    path="G_xyxm/images/Particle/effect8.png"     Frame="5" fps="5" hotspotX="70" hotspotY="85" RectX="0" RectY="0" RectWidth="141" RectHeight="171"/>
+	</Effect>
+    <message>
+	  <message_back path="G_xyxm/images/message_bg.png" />
+	</message>
+	<Back>
+		<!--存放场景，波浪，场景元素等图片资源（0-14.png）-->
+		<filename value="Animal/scene/" />
+		<scene_wave  path="G_xyxm/images/Scene/wave.png"       Frame="2" fps="2" hotspotX="250" hotspotY="450" RectX="0" RectY="0" RectWidth="500" RectHeight="900"/>
+		<Iamhere path="G_xyxm/images/pos_light.png"        Frame="4" fps="6" hotspotX="227" hotspotY="227" RectX="0" RectY="0" RectWidth="358" RectHeight="358"/>	 
+	</Back>
+	<CookTask>
+		<!--厨师任务，海盗任务-->
+		<filename value="G_xyxm/images/CookTask/" />
+	</CookTask>
+	<FishesLock>
+	    <lock_flag   path="G_xyxm/images/lock_fish/lock_flag.png"  Frame="40" fps="10" hotspotX="40" hotspotY="53" RectX="0" RectY="0" RectWidth="80" RectHeight="107" />
+		<lock_line   path="G_xyxm/images/lock_fish/lock_line.png"    hotspotX="40" hotspotY="53"  Width="80" Height="107"/>
+		<lock_flag_1 path="G_xyxm/images/lock_fish/lock_flag_1.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<lock_flag_2 path="G_xyxm/images/lock_fish/lock_flag_2.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<lock_flag_3 path="G_xyxm/images/lock_fish/lock_flag_3.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<lock_flag_4 path="G_xyxm/images/lock_fish/lock_flag_4.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<lock_flag_5 path="G_xyxm/images/lock_fish/lock_flag_5.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<lock_flag_6 path="G_xyxm/images/lock_fish/lock_flag_6.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<lock_flag_7 path="G_xyxm/images/lock_fish/lock_flag_7.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<lock_flag_8 path="G_xyxm/images/lock_fish/lock_flag_8.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<lock_flag_9 path="G_xyxm/images/lock_fish/lock_flag_9.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+		<lock_flag_10 path="G_xyxm/images/lock_fish/lock_flag_10.png"  hotspotX="32" hotspotY="32"  Width="64" Height="64"/>
+	</FishesLock>
+	<jetton>
+	    <jetton path="G_xyxm/images/jetton.png"        hotspotX="32" hotspotY="273"  Width="32" Height="372"/>
+		<jetton_num path="G_xyxm/images/jetton_num.png"  Frame="10" fps="10" hotspotX="6" hotspotY="8" RectX="0" RectY="0" RectWidth="12" RectHeight="17"/>
+		<jetton_bgc1 path="G_xyxm/images/jetton_bgc1.png"    hotspotX="37" hotspotY="9"  Width="75" Height="18"/>
+		<jetton_bgc2 path="G_xyxm/images/jetton_bgc2.png"    hotspotX="37" hotspotY="9"  Width="75" Height="18"/>
+	</jetton>
+	<cannon>
+	 <yellow_people_fly   path="yellowpeople/yellow_people_fly.png" Frame="2" fps="10" hotspotX="150" hotspotY="50" RectX="0" RectY="0" RectWidth="174" RectHeight="140"/>
+	 <yellow_people_atack path="yellowpeople/yellow_people_attack.png" Frame="2" fps="10" hotspotX="40" hotspotY="40" RectX="0" RectY="0" RectWidth="174" RectHeight="140"/>
+	 <yellow_people_dle   path="yellowpeople/yellow_people_dle.png" Frame="31" fps="15" hotspotX="40" hotspotY="50" RectX="0" RectY="0" RectWidth="174" RectHeight="140" />
+	 <message_bg    path="G_xyxm/images/message_bg.png"       hotspotX="720" hotspotY="31"  Width="1440" Height="63"/>
+	 <cannon_base   path="G_xyxm/images/cannon/board.png"     hotspotX="128" hotspotY="64"  Width="256" Height="128"/>
+	 <cannon_plate  path="G_xyxm/images/cannon/seat.png"      hotspotX="64" hotspotY="32"  Width="128" Height="64"/>
+	 <cannonNormal1 path="G_xyxm/images/cannon/gun1.png"      hotspotX="26" hotspotY="41"  Width="52" Height="82"/>
+	 <cannonNormal2 path="G_xyxm/images/cannon/gun1_1.png"    hotspotX="43" hotspotY="41"  Width="87" Height="82"/>
+	 <cannonNormal3 path="G_xyxm/images/cannon/gun1_2.png"    hotspotX="43" hotspotY="38"  Width="86" Height="76"/>
+	 <cannonNormal4 path="G_xyxm/images/cannon/gun1_3.png"    hotspotX="43" hotspotY="43"  Width="86" Height="87"/>
+	 <cannonIon1    path="G_xyxm/images/cannon/gun2.png"      hotspotX="23" hotspotY="45"  Width="47" Height="91"/>
+	 <cannonIon2    path="G_xyxm/images/cannon/gun2_1.png"    hotspotX="39" hotspotY="45"  Width="78" Height="91"/>
+	 <cannonIon3    path="G_xyxm/images/cannon/gun2_2.png"    hotspotX="43" hotspotY="43"  Width="86" Height="87"/>
+	 <cannonIon4    path="G_xyxm/images/cannon/gun2_3.png"    hotspotX="43" hotspotY="43"  Width="86" Height="87"/>
+	 <deco1         path="G_xyxm/images/cannon/deco1.png"     hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+	 <deco2         path="G_xyxm/images/cannon/deco2.png"     hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+	 <deco3         path="G_xyxm/images/cannon/deco3.png"     hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+	 <deco4         path="G_xyxm/images/cannon/deco4.png"     hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+	 <deco5         path="G_xyxm/images/cannon/deco5.png"     hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+     <deco6         path="G_xyxm/images/cannon/deco6.png"     hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+	 <deco7         path="G_xyxm/images/cannon/deco7.png"     hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+	 <deco8         path="G_xyxm/images/cannon/deco8.png"     hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+     <deco9         path="G_xyxm/images/cannon/deco9.png"     hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+	 <deco10        path="G_xyxm/images/cannon/deco10.png"    hotspotX="26" hotspotY="26"  Width="52" Height="52"/>
+	 <cannon_fire   path="G_xyxm/images/cannon/GunFire.png"   Frame="3" fps="12" hotspotX="34" hotspotY="31" RectX="0" RectY="0" RectWidth="69" RectHeight="63" />
+	 <score_box     path="G_xyxm/images/score_box.png"        hotspotX="74" hotspotY="22"  Width="148" Height="45"/>
+	 <credit_num    path="G_xyxm/images/credit_num.png"        Frame="10" fps="10" hotspotX="10" hotspotY="11" RectX="0" RectY="0" RectWidth="20" RectHeight="23"/>
+	 <cannon_num    path="G_xyxm/images/cannon/cannon_num.png"     Frame="10" fps="10" hotspotX="7" hotspotY="9" RectX="0" RectY="0" RectWidth="14" RectHeight="19"/>
+	 <gun_add path="G_xyxm/images/gun_add.png"/>
+	 <gun_minus path="G_xyxm/images/gun_minus.png"/>
+	 
+	 
+	 <cannondouble_Prompt_Num path="G_xyxm/images/cannon/DoubleEffectNumber.png"    Frame="10" fps="10" hotspotX="7" hotspotY="9" RectX="0" RectY="0" RectWidth="22" RectHeight="26"/>
+	 
+	 <cannondouble_Prompt     path="G_xyxm/images/cannon/DoubleEffect11.png"    hotspotX="50" hotspotY="110"  Width="400" Height="120"/>
+	 <cannonarmor_Prompt      path="G_xyxm/images/cannon/chuanjiadantip.png"    hotspotX="50" hotspotY="110"  Width="400" Height="120"/>
+	 <cannonfree_Prompt       path="G_xyxm/images/cannon/free_bullet.png"       hotspotX="50" hotspotY="110"  Width="400" Height="120"/>
+	 
+	 <card_ion path="G_xyxm/images/cannon/card_ion.png"           hotspotX="50" hotspotY="110"  Width="105" Height="107" />
+	 <chuanjiacard_ion path="G_xyxm/images/cannon/chuanjiacard_ion.png"   hotspotX="40" hotspotY="53"  Width="80" Height="106"/>
+	 <freecard_ion path="G_xyxm/images/cannon/freecardcard_ion.png"       hotspotX="40" hotspotY="53"  Width="80" Height="106"/>
+	 
+	 <card_ionEx path="G_xyxm/images/cannon/card_ionEx.png"                     hotspotX="40" hotspotY="110"  Width="80" Height="107" />
+	 <chuanjiacard_ionEx path="G_xyxm/images/cannon/chuanjiacard_ion.png"      hotspotX="40" hotspotY="53"  Width="80" Height="106"/>
+	 <freecard_ionEx path="G_xyxm/images/cannon/freecardcard_ionEx.png"        hotspotX="40" hotspotY="53"  Width="80" Height="107"/>
+	 
+	</cannon>
+	<Animal>
+	 <Win_Back_Pic   path="Animal/or1.png"    hotspotX="30" hotspotY="30"  Width="60" Height="61"/>
+	 <win_num1 path="Animal/win_num1.png"   Frame="11" fps="11"      hotspotX="10" hotspotY="11" RectX="0" RectY="0" RectWidth="20" RectHeight="23" baseAngle="0"/>
+	 <Win_action _scale1="1" _scale2="1" _scale3="1" state="1" movSpeed="1"/>
+	 <Animal_num num="16"/>
+	 <a0_run_  path="Animal/Animal/animal00_run.png" Frame="20" fps="20"   hotspotX="42" hotspotY="124" RectX="0" RectY="0" RectWidth="180" RectHeight="208" baseAngle="0" scale="0.5"/>
+	 <a0_walk_  path="Animal/Animal/animal00_walk.png" Frame="30" fps="30" hotspotX="42" hotspotY="124" RectX="0" RectY="0" RectWidth="180" RectHeight="208" baseAngle="0" scale="1"/>
+	 <a0_die_  path="Animal/Animal/animal00_die.png" Frame="10" fps="10"   hotspotX="42" hotspotY="124" RectX="0" RectY="0" RectWidth="180" RectHeight="208" baseAngle="0" scale="1"/>
+	 <a0_dizz_  path="Animal/Animal/animal00_dizz.png" Frame="20" fps="20" hotspotX="42" hotspotY="124" RectX="0" RectY="0" RectWidth="180" RectHeight="208" baseAngle="0" scale="1"/>
+	 <a0_name_  path="Animal/Animal/name_ef/0.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a1_run_  path="Animal/Animal/animal01_run.png" Frame="20" fps="20"   hotspotX="80" hotspotY="132" RectX="0" RectY="0" RectWidth="220" RectHeight="264" baseAngle="0" scale="0.5"/>
+	 <a1_walk_  path="Animal/Animal/animal01_walk.png" Frame="30" fps="30" hotspotX="80" hotspotY="132" RectX="0" RectY="0" RectWidth="220" RectHeight="264" baseAngle="0" scale="1"/>
+	 <a1_die_  path="Animal/Animal/animal01_die.png" Frame="11" fps="11"   hotspotX="80" hotspotY="132" RectX="0" RectY="0" RectWidth="220" RectHeight="264" baseAngle="0" scale="1"/>
+	 <a1_dizz_  path="Animal/Animal/animal01_dizz.png" Frame="20" fps="20" hotspotX="80" hotspotY="132" RectX="0" RectY="0" RectWidth="220" RectHeight="264" baseAngle="0" scale="1"/>
+	 <a1_name_  path="Animal/Animal/name_ef/1.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 
+	 
+	 <a2_run_  path="Animal/Animal/animal02_run.png" Frame="20" fps="20"   hotspotX="85" hotspotY="140" RectX="0" RectY="0" RectWidth="240" RectHeight="264" baseAngle="0" scale="0.5"/>
+	 <a2_walk_  path="Animal/Animal/animal02_walk.png" Frame="30" fps="30" hotspotX="85" hotspotY="140" RectX="0" RectY="0" RectWidth="240" RectHeight="264" baseAngle="0" scale="1"/>
+	 <a2_die_  path="Animal/Animal/animal02_die.png" Frame="11" fps="11"   hotspotX="85" hotspotY="140" RectX="0" RectY="0" RectWidth="240" RectHeight="264" baseAngle="0" scale="1"/>
+	 <a2_dizz_  path="Animal/Animal/animal02_dizz.png" Frame="20" fps="20" hotspotX="85" hotspotY="140" RectX="0" RectY="0" RectWidth="240" RectHeight="264" baseAngle="0" scale="1"/>
+	 <a2_name_  path="Animal/Animal/name_ef/2.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 
+	 <a3_run_   path="Animal/Animal/animal03_run.png"  Frame="20" fps="20"   hotspotX="90" hotspotY="132" RectX="0" RectY="0" RectWidth="260" RectHeight="284" baseAngle="0" scale="0.8"/>
+	 <a3_walk_  path="Animal/Animal/animal03_walk.png" Frame="30" fps="30"   hotspotX="90" hotspotY="132" RectX="0" RectY="0" RectWidth="260" RectHeight="284" baseAngle="0" scale="1"/>
+	 <a3_die_   path="Animal/Animal/animal03_die.png"  Frame="11" fps="11"   hotspotX="90" hotspotY="132" RectX="0" RectY="0" RectWidth="260" RectHeight="284" baseAngle="0" scale="1"/>
+	 <a3_dizz_  path="Animal/Animal/animal03_dizz.png" Frame="20" fps="20"   hotspotX="90" hotspotY="132" RectX="0" RectY="0" RectWidth="260" RectHeight="284" baseAngle="0" scale="1"/>
+	 <a3_name_  path="Animal/Animal/name_ef/3.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 
+	 <a4_run_   path="Animal/Animal/animal04_run.png"  Frame="21" fps="21"   hotspotX="65" hotspotY="120" RectX="0" RectY="0" RectWidth="200" RectHeight="220" baseAngle="0" scale="0.5"/>
+	 <a4_walk_  path="Animal/Animal/animal04_walk.png" Frame="31" fps="31"   hotspotX="65" hotspotY="120" RectX="0" RectY="0" RectWidth="200" RectHeight="220" baseAngle="0" scale="1"/>
+	 <a4_die_   path="Animal/Animal/animal04_die.png"  Frame="31" fps="31"   hotspotX="65" hotspotY="120" RectX="0" RectY="0" RectWidth="200" RectHeight="220" baseAngle="0" scale="1"/>
+	 <a4_dizz_  path="Animal/Animal/animal04_dizz.png" Frame="21" fps="21"   hotspotX="65" hotspotY="120" RectX="0" RectY="0" RectWidth="200" RectHeight="220" baseAngle="0" scale="1"/>
+	 <a4_name_  path="Animal/Animal/name_ef/4.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a5_run_   path="Animal/Animal/animal05_run.png"  Frame="21" fps="21"   hotspotX="75" hotspotY="130" RectX="0" RectY="0" RectWidth="220" RectHeight="264" baseAngle="0" scale="0.5"/>
+	 <a5_walk_  path="Animal/Animal/animal05_walk.png" Frame="31" fps="31"   hotspotX="75" hotspotY="130" RectX="0" RectY="0" RectWidth="220" RectHeight="264" baseAngle="0" scale="1"/>
+	 <a5_die_   path="Animal/Animal/animal05_die.png"  Frame="8"  fps="8"    hotspotX="75" hotspotY="130" RectX="0" RectY="0" RectWidth="220" RectHeight="264" baseAngle="0" scale="1"/>
+	 <a5_dizz_  path="Animal/Animal/animal05_dizz.png" Frame="21" fps="21"   hotspotX="75" hotspotY="130" RectX="0" RectY="0" RectWidth="220" RectHeight="264" baseAngle="0" scale="1"/>
+	 <a5_name_  path="Animal/Animal/name_ef/5.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a6_run_   path="Animal/Animal/animal06_run.png"  Frame="21" fps="21"   hotspotX="90" hotspotY="130" RectX="0" RectY="0" RectWidth="260" RectHeight="284" baseAngle="0" scale="0.8"/>
+	 <a6_walk_  path="Animal/Animal/animal06_walk.png" Frame="31" fps="31"   hotspotX="90" hotspotY="130" RectX="0" RectY="0" RectWidth="260" RectHeight="284" baseAngle="0" scale="1"/>
+	 <a6_die_   path="Animal/Animal/animal06_die.png"  Frame="8"  fps="8"    hotspotX="90" hotspotY="130" RectX="0" RectY="0" RectWidth="260" RectHeight="284" baseAngle="0" scale="1"/>
+	 <a6_dizz_  path="Animal/Animal/animal06_dizz.png" Frame="21" fps="21"   hotspotX="90" hotspotY="130" RectX="0" RectY="0" RectWidth="260" RectHeight="284" baseAngle="0" scale="1"/>
+	 <a6_name_  path="Animal/Animal/name_ef/6.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a7_run_   path="Animal/Animal/animal07_walk.png" Frame="1" fps="20"   hotspotX="100" hotspotY="75" RectX="0" RectY="0" RectWidth="200" RectHeight="150" baseAngle="0" scale="0.5"/>
+	 <a7_walk_  path="Animal/Animal/animal07_walk.png" Frame="1" fps="20"   hotspotX="100" hotspotY="75" RectX="0" RectY="0" RectWidth="200" RectHeight="150" baseAngle="0" scale="1"/>
+	 <a7_die_   path="Animal/Animal/animal07_die.png"  Frame="10"  fps="10"  hotspotX="100" hotspotY="75" RectX="0" RectY="0" RectWidth="200" RectHeight="150" baseAngle="0" scale="1"/>
+	 <a7_dizz_  path="Animal/Animal/animal07_walk.png" Frame="20" fps="20"   hotspotX="100" hotspotY="75" RectX="0" RectY="0" RectWidth="200" RectHeight="150" baseAngle="0" scale="1"/>
+	 <a7_name_  path="Animal/Animal/name_ef/7.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a8_run_   path="Animal/Animal/animal08_walk.png" Frame="1" fps="20"   hotspotX="100" hotspotY="75" RectX="0" RectY="0" RectWidth="200" RectHeight="150" baseAngle="0" scale="0.5"/>
+	 <a8_walk_  path="Animal/Animal/animal08_walk.png" Frame="1" fps="20"   hotspotX="100" hotspotY="75" RectX="0" RectY="0" RectWidth="200" RectHeight="150" baseAngle="0" scale="1"/>
+	 <a8_die_   path="Animal/Animal/animal08_die.png"  Frame="10"  fps="10"  hotspotX="100" hotspotY="75" RectX="0" RectY="0" RectWidth="200" RectHeight="150" baseAngle="0" scale="1"/>
+	 <a8_dizz_  path="Animal/Animal/animal08_walk.png" Frame="20" fps="20"   hotspotX="100" hotspotY="75" RectX="0" RectY="0" RectWidth="200" RectHeight="150" baseAngle="0" scale="1"/>
+	 <a8_name_  path="Animal/Animal/name_ef/8.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a13_run_   path="Animal/Animal/animal09_run.png"  Frame="21" fps="21"   hotspotX="140" hotspotY="125" RectX="0" RectY="0" RectWidth="200" RectHeight="250" baseAngle="1800" scale="1"/>
+	 <a13_walk_  path="Animal/Animal/animal09_walk.png" Frame="30" fps="30"   hotspotX="140" hotspotY="125" RectX="0" RectY="0" RectWidth="200" RectHeight="250" baseAngle="1800" scale="1"/>
+	 <a13_die_   path="Animal/Animal/animal09_die.png"  Frame="10" fps="10"   hotspotX="140" hotspotY="125" RectX="0" RectY="0" RectWidth="200" RectHeight="250" baseAngle="1800" scale="1"/>
+	 <a13_dizz_  path="Animal/Animal/animal09_dizz.png" Frame="18" fps="18"   hotspotX="140" hotspotY="125" RectX="0" RectY="0" RectWidth="200" RectHeight="250" baseAngle="1800" scale="1"/>
+	 <a13_name_  path="Animal/Animal/name_ef/9.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a12_run_   path="Animal/Animal/animal10_run.png"  Frame="21" fps="21"   hotspotX="120" hotspotY="93" RectX="0" RectY="0" RectWidth="186" RectHeight="186" baseAngle="1800" scale="1"/>
+	 <a12_walk_  path="Animal/Animal/animal10_walk.png" Frame="30" fps="20"   hotspotX="120" hotspotY="93" RectX="0" RectY="0" RectWidth="186" RectHeight="186" baseAngle="1800" scale="1"/>
+	 <a12_die_   path="Animal/Animal/animal10_die.png"  Frame="10" fps="10"   hotspotX="120" hotspotY="93" RectX="0" RectY="0" RectWidth="186" RectHeight="186" baseAngle="1800" scale="1"/>
+	 <a12_dizz_  path="Animal/Animal/animal10_dizz.png" Frame="18" fps="18"   hotspotX="120" hotspotY="93" RectX="0" RectY="0" RectWidth="186" RectHeight="186" baseAngle="1800" scale="1"/>
+	 <a12_name_  path="Animal/Animal/name_ef/10.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a11_run_   path="Animal/Animal/animal11_run.png"  Frame="21" fps="21"   hotspotX="120" hotspotY="99" RectX="0" RectY="0" RectWidth="190" RectHeight="198" baseAngle="1800" scale="1"/>
+	 <a11_walk_  path="Animal/Animal/animal11_walk.png" Frame="30" fps="30"   hotspotX="120" hotspotY="99" RectX="0" RectY="0" RectWidth="190" RectHeight="198" baseAngle="1800" scale="1"/>
+	 <a11_die_   path="Animal/Animal/animal11_die.png"  Frame="10" fps="10"   hotspotX="120" hotspotY="99" RectX="0" RectY="0" RectWidth="190" RectHeight="198" baseAngle="1800" scale="1"/>
+	 <a11_dizz_  path="Animal/Animal/animal11_dizz.png" Frame="18" fps="18"   hotspotX="120" hotspotY="99" RectX="0" RectY="0" RectWidth="190" RectHeight="198" baseAngle="1800" scale="1"/>
+	 <a11_name_  path="Animal/Animal/name_ef/11.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a10_run_   path="Animal/Animal/animal12_run.png"  Frame="21" fps="21"   hotspotX="130" hotspotY="110" RectX="0" RectY="0" RectWidth="180" RectHeight="180" baseAngle="1800" scale="1"/>
+	 <a10_walk_  path="Animal/Animal/animal12_walk.png" Frame="31" fps="31"   hotspotX="130" hotspotY="110" RectX="0" RectY="0" RectWidth="180" RectHeight="180" baseAngle="1800" scale="1"/>
+	 <a10_die_   path="Animal/Animal/animal12_die.png"  Frame="12" fps="12"   hotspotX="130" hotspotY="110" RectX="0" RectY="0" RectWidth="180" RectHeight="180" baseAngle="1800" scale="1"/>
+	 <a10_dizz_  path="Animal/Animal/animal12_dizz.png" Frame="18" fps="18"   hotspotX="130" hotspotY="110" RectX="0" RectY="0" RectWidth="180" RectHeight="180" baseAngle="1800" scale="1"/>
+	 <a10_name_  path="Animal/Animal/name_ef/12.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a9_run_   path="Animal/Animal/animal13_run.png"  Frame="21" fps="21"   hotspotX="135" hotspotY="90" RectX="0" RectY="0" RectWidth="180" RectHeight="180" baseAngle="1800" scale="1"/>
+	 <a9_walk_  path="Animal/Animal/animal13_walk.png" Frame="31" fps="31"   hotspotX="135" hotspotY="90" RectX="0" RectY="0" RectWidth="180" RectHeight="180" baseAngle="1800" scale="1"/>
+	 <a9_die_   path="Animal/Animal/animal13_die.png"  Frame="10" fps="10"   hotspotX="135" hotspotY="90" RectX="0" RectY="0" RectWidth="180" RectHeight="180" baseAngle="1800" scale="1"/>
+	 <a9_dizz_  path="Animal/Animal/animal13_dizz.png" Frame="18" fps="18"   hotspotX="135" hotspotY="90" RectX="0" RectY="0" RectWidth="180" RectHeight="180" baseAngle="1800" scale="1"/>
+	 <a9_name_  path="Animal/Animal/name_ef/13.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <a14_run_   path="Animal/Animal/animal14_run.png"  Frame="21" fps="21"   hotspotX="110" hotspotY="105" RectX="0" RectY="0" RectWidth="180" RectHeight="210" baseAngle="1800" scale="1"/>
+	 <a14_walk_  path="Animal/Animal/animal14_walk.png" Frame="30" fps="30"   hotspotX="110" hotspotY="105" RectX="0" RectY="0" RectWidth="180" RectHeight="210" baseAngle="1800" scale="1"/>
+	 <a14_die_   path="Animal/Animal/animal14_die.png"  Frame="10" fps="10"   hotspotX="110" hotspotY="105" RectX="0" RectY="0" RectWidth="180" RectHeight="210" baseAngle="1800" scale="1"/>
+	 <a14_dizz_  path="Animal/Animal/animal14_dizz.png" Frame="18" fps="18"   hotspotX="110" hotspotY="105" RectX="0" RectY="0" RectWidth="180" RectHeight="210" baseAngle="1800" scale="1"/>
+	 <a14_name_  path="Animal/Animal/name_ef/14.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 
+	 <a15_run_   path="Animal/Animal/animal15_run.png"  Frame="21" fps="21"   hotspotX="200" hotspotY="190" RectX="0" RectY="0" RectWidth="300" RectHeight="380" baseAngle="1800" scale="1"/>
+	 <a15_walk_  path="Animal/Animal/animal15_walk.png" Frame="30" fps="30"   hotspotX="200" hotspotY="190" RectX="0" RectY="0" RectWidth="300" RectHeight="380" baseAngle="1800" scale="1"/>
+	 <a15_die_   path="Animal/Animal/animal15_die.png"  Frame="10" fps="10"   hotspotX="200" hotspotY="190" RectX="0" RectY="0" RectWidth="300" RectHeight="380" baseAngle="1800" scale="1"/>
+	 <a15_dizz_  path="Animal/Animal/animal15_dizz.png" Frame="18" fps="18"   hotspotX="200" hotspotY="190" RectX="0" RectY="0" RectWidth="300" RectHeight="380" baseAngle="1800" scale="1"/>
+	 <a15_name_  path="Animal/Animal/name_ef/15.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 
+	 <a20_run_   path="Animal/Animal/feilong.png"  Frame="24" fps="30"   hotspotX="180" hotspotY="194" RectX="0" RectY="0" RectWidth="360" RectHeight="388" baseAngle="1800" scale="2.0"/>
+	 <a20_walk_  path="Animal/Animal/feilong.png"  Frame="24" fps="30"   hotspotX="180" hotspotY="194" RectX="0" RectY="0" RectWidth="360" RectHeight="388" baseAngle="1800" scale="2.0"/>
+	 <a20_die_   path="Animal/Animal/feilong.png"  Frame="24" fps="30"   hotspotX="180" hotspotY="194" RectX="0" RectY="0" RectWidth="360" RectHeight="388" baseAngle="1800" scale="2.0"/>
+	 <a20_dizz_  path="Animal/Animal/feilong.png"  Frame="24" fps="30"   hotspotX="180" hotspotY="194" RectX="0" RectY="0" RectWidth="360" RectHeight="388" baseAngle="1800" scale="2.0"/>
+	 <a20_name_  path="Animal/Animal/name_ef/15.png"  hotspotX="64" hotspotY="36"  Width="129" Height="72" />
+	 
+	 <CJ_BOSS path="Animal/CJ_BOSS.png"   plistpath="Animal/CJ_BOSS.plist" FrameSpeed1="0.04" FrameSpeed2="0.04" FrameSpeed3="0.04"/>
+	 <win_num path="Animal/win_num.png"   Frame="11" fps="11"      hotspotX="50" hotspotY="55" RectX="0" RectY="0" RectWidth="100" RectHeight="110" baseAngle="0"/>
+	 <Kind_Effect path="Animal/vbd_.png"   Frame="25" fps="25"      hotspotX="80" hotspotY="45" RectX="0" RectY="0" RectWidth="150" RectHeight="90" baseAngle="0"/>
+	</Animal>
+	
+	<Fishes>
+		<!--鱼-->
+		<filename value="G_xyxm/images/Fish/" />
+		<StopCaptureFish value="G_xyxm/images/Fish/StopCaptureFish.png" />
+		<NetHit value="G_xyxm/images/Fish/NetHit.png" />
+		<BombHit value="G_xyxm/images/Fish/BombHit.png" />
+		<BonusText value="G_xyxm/images/Fish/BonusText.png" />
+		<lock_line value="G_xyxm/images/Fish/lock_line.png" />
+		
+		<dish      path="G_xyxm/images/Fish/dish.png" Frame="1" fps="3" hotspotX="60" hotspotY="60" RectX="0" RectY="0" RectWidth="120" RectHeight="120" />
+		<dish_die  path="G_xyxm/images/Fish/dish.png" Frame="1" fps="1" hotspotX="60" hotspotY="60" RectX="0" RectY="0" RectWidth="120" RectHeight="120" />
+		<halo      path="G_xyxm/images/Fish/halo.png" Frame="120" fps="0.5" hotspotX="60" hotspotY="60" RectX="0" RectY="0" RectWidth="120" RectHeight="120"/>
+		<halo_die  path="G_xyxm/images/Fish/halo.png" Frame="120" fps="0.5" hotspotX="60" hotspotY="60" RectX="0" RectY="0" RectWidth="120" RectHeight="120"/>
+		<score_num        path="G_xyxm/images/score_num.png" Frame="10" fps="0.5" hotspotX="46" hotspotY="19" RectX="0" RectY="0" RectWidth="33" RectHeight="38"/>
+		<score_num_small  path="G_xyxm/images/score_num_small.png" Frame="10" fps="0.5"  hotspotX="46" hotspotY="19" RectX="0" RectY="0" RectWidth="33" RectHeight="38"/>
+		<yunxuan     path="G_xyxm/images/Fish/yunxuan.png"  Frame="5" fps="5" hotspotX="62" hotspotY="53" RectX="0" RectY="0" RectWidth="124" RectHeight="106" />
+		<Fish_Word0  path="G_xyxm/images/Fish/haoxian.png"  Frame="1" fps="1"   hotspotX="37" hotspotY="28"  RectX="0" RectY="0" RectWidth="75" RectHeight="56"/>
+			
+		
+	</Fishes>
+	
+    <bullet>
+	  <bullet1_norm1 path="G_xyxm/images/bullet/bullet1_norm1.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  <bullet1_norm2 path="G_xyxm/images/bullet/bullet1_norm2.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  <bullet1_norm3 path="G_xyxm/images/bullet/bullet1_norm3.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  <bullet1_norm4 path="G_xyxm/images/bullet/bullet1_norm4.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  <bullet1_norm5 path="G_xyxm/images/bullet/bullet1_norm5.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  <bullet1_norm6 path="G_xyxm/images/bullet/bullet1_norm6.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  <bullet1_norm7 path="G_xyxm/images/bullet/bullet1_norm7.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  <bullet1_norm8 path="G_xyxm/images/bullet/bullet1_norm8.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  <bullet1_norm9 path="G_xyxm/images/bullet/bullet1_norm9.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  <bullet1_norm10 path="G_xyxm/images/bullet/bullet1_norm10.png" Frame="2" fps="2" hotspotX="11" hotspotY="17" RectX="0" RectY="0" RectWidth="22" RectHeight="35" />
+	  
+	  <bullet2_norm1 path="G_xyxm/images/bullet/bullet2_norm1.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  <bullet2_norm2 path="G_xyxm/images/bullet/bullet2_norm2.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  <bullet2_norm3 path="G_xyxm/images/bullet/bullet2_norm3.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  <bullet2_norm4 path="G_xyxm/images/bullet/bullet2_norm4.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  <bullet2_norm5 path="G_xyxm/images/bullet/bullet2_norm5.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  <bullet2_norm6 path="G_xyxm/images/bullet/bullet2_norm6.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  <bullet2_norm7 path="G_xyxm/images/bullet/bullet2_norm7.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  <bullet2_norm8 path="G_xyxm/images/bullet/bullet2_norm8.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  <bullet2_norm9 path="G_xyxm/images/bullet/bullet2_norm9.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  <bullet2_norm10 path="G_xyxm/images/bullet/bullet2_norm10.png"  Frame="2" fps="2" hotspotX="15" hotspotY="17" RectX="0" RectY="0" RectWidth="31" RectHeight="35" />
+	  
+	  <bullet3_norm1 path="G_xyxm/images/bullet/bullet3_norm1.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet3_norm2 path="G_xyxm/images/bullet/bullet3_norm2.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet3_norm3 path="G_xyxm/images/bullet/bullet3_norm3.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet3_norm4 path="G_xyxm/images/bullet/bullet3_norm4.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet3_norm5 path="G_xyxm/images/bullet/bullet3_norm5.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet3_norm6 path="G_xyxm/images/bullet/bullet3_norm6.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet3_norm7 path="G_xyxm/images/bullet/bullet3_norm7.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet3_norm8 path="G_xyxm/images/bullet/bullet3_norm8.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet3_norm9 path="G_xyxm/images/bullet/bullet3_norm9.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet3_norm10 path="G_xyxm/images/bullet/bullet3_norm10.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  
+	  
+	  <bullet4_norm1 path="G_xyxm/images/bullet/bullet4_norm1.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet4_norm2 path="G_xyxm/images/bullet/bullet4_norm2.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet4_norm3 path="G_xyxm/images/bullet/bullet4_norm3.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet4_norm4 path="G_xyxm/images/bullet/bullet4_norm4.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet4_norm5 path="G_xyxm/images/bullet/bullet4_norm5.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet4_norm6 path="G_xyxm/images/bullet/bullet4_norm6.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet4_norm7 path="G_xyxm/images/bullet/bullet4_norm7.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet4_norm8 path="G_xyxm/images/bullet/bullet4_norm8.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet4_norm9 path="G_xyxm/images/bullet/bullet4_norm9.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  <bullet4_norm10 path="G_xyxm/images/bullet/bullet4_norm10.png"  Frame="2" fps="2" hotspotX="15" hotspotY="14" RectX="0" RectY="0" RectWidth="31" RectHeight="28" />
+	  
+	  <bullet1_ion path="G_xyxm/images/bullet/bullet1_ion.png"  Frame="2" fps="2" hotspotX="21" hotspotY="28" RectX="0" RectY="0" RectWidth="43" RectHeight="57" />
+	  <bullet2_ion path="G_xyxm/images/bullet/bullet2_ion.png"  Frame="2" fps="2" hotspotX="26" hotspotY="28" RectX="0" RectY="0" RectWidth="52" RectHeight="57" />
+	  <bullet3_ion path="G_xyxm/images/bullet/bullet3_ion.png"  Frame="2" fps="2" hotspotX="26" hotspotY="21" RectX="0" RectY="0" RectWidth="52" RectHeight="43" />
+	  <bullet4_ion path="G_xyxm/images/bullet/bullet4_ion.png"  Frame="2" fps="2" hotspotX="26" hotspotY="28" RectX="0" RectY="0" RectWidth="52" RectHeight="57" />
+	  
+	  <bullet1_no_charge path="G_xyxm/images/bullet/bullet1_no_charge.png"  Frame="2" fps="2" hotspotX="40" hotspotY="66" RectX="0" RectY="0" RectWidth="80" RectHeight="132" />
+	  <bullet2_no_charge path="G_xyxm/images/bullet/bullet2_no_charge.png"  Frame="2" fps="2" hotspotX="40" hotspotY="66" RectX="0" RectY="0" RectWidth="80" RectHeight="132" />
+	  <bullet3_no_charge path="G_xyxm/images/bullet/bullet3_no_charge.png"  Frame="2" fps="2" hotspotX="40" hotspotY="66" RectX="0" RectY="0" RectWidth="80" RectHeight="132" />
+	  <bullet4_no_charge path="G_xyxm/images/bullet/bullet4_no_charge.png"  Frame="2" fps="2" hotspotX="40" hotspotY="66" RectX="0" RectY="0" RectWidth="80" RectHeight="132" />
+		
+	  	  
+	  <net2       path="G_xyxm/images/net/net2.png"         Frame="9"  fps="9" hotspotX="145" hotspotY="121" RectX="0" RectY="0" RectWidth="290" RectHeight="242" />
+	  <net3       path="G_xyxm/images/net/net3.png"         Frame="9"  fps="9" hotspotX="145" hotspotY="157" RectX="0" RectY="0" RectWidth="290" RectHeight="314" />
+	  <net4       path="G_xyxm/images/net/net4.png"         Frame="10" fps="10" hotspotX="180" hotspotY="180" RectX="0" RectY="0" RectWidth="360" RectHeight="360" />
+	  <net_light  path="G_xyxm/images/net/BulletLight.png"  Frame="13" fps="13" hotspotX="166" hotspotY="166" RectX="0" RectY="0" RectWidth="332" RectHeight="332" />
+	  
+ 	</bullet>
+	<UI>
+	    <!--  新添加  -->
+	     <selfinfo      path="G_xyxm/images/selfinfo.png"  hotspotX="0" hotspotY="64"  Width="1366" Height="64"/>
+		 <userscore_num path="G_xyxm/images/user_score.png" Frame="10" hotspotX="6" hotspotY="9"  Width="13" Height="19"/>
+		<!---->
+		
+		<filename value="G_xyxm/images/UI/" />
+
+		<net1 value="G_xyxm/images/UI/net1.png" />
+		<net2 value="G_xyxm/images/UI/net2.png" />
+		<net3 value="G_xyxm/images/UI/net3.png" />
+		<navigationNum value="G_xyxm/images/UI/navigationNum.png" />
+	</UI>
+
+
+	<bingo>
+	   <bingo_num    path="G_xyxm/images/prize/bingo_num.png"   Frame="11" fps="11" hotspotX="55"  hotspotY="55" RectX="0" RectY="0" RectWidth="100" RectHeight="110"/>
+	   <bingo        path="G_xyxm/images/prize/bingo.png"       Frame="15" fps="15" hotspotX="200" hotspotY="200" RectX="0" RectY="0" RectWidth="400" RectHeight="400"/>
+	</bingo>
+	<bingoEx>
+	   <bingo_numEx    path="G_xyxm/images/prize/bingo_num1.png"   Frame="10" fps="10" hotspotX="25"  hotspotY="30" RectX="0" RectY="0" RectWidth="50" RectHeight="60"/>
+	   <bingoEx        path="G_xyxm/images/prize/bingo11.png"       Frame="10" fps="10" hotspotX="128" hotspotY="128" RectX="0" RectY="0" RectWidth="256" RectHeight="256"/>
+	</bingoEx>
+    <coin>
+	    <coin2 path="G_xyxm/images/coin2.png" Frame="10" fps="10" hotspotX="25" hotspotY="25" RectX="0" RectY="0" RectWidth="50" RectHeight="50"/>
+	   <coin1 path="G_xyxm/images/coin1.png" Frame="12" fps="12" hotspotX="45" hotspotY="45" RectX="0" RectY="0" RectWidth="90" RectHeight="90"/>
+	</coin>
+	<!--//////////////////////游戏音效///////////////////////////////////-->
+	<Sound>
+		<filename value="Sound/Fish/" />
+		<!--背景音乐-->
+		<bgm_normal1 value="G_xyxm/sounds/bgm/bgm1.mp3" />
+		<bgm_normal2 value="G_xyxm/sounds/bgm/bgm2.mp3" />
+		<bgm_normal3 value="G_xyxm/sounds/bgm/bgm3.mp3" />
+		<bgm_normal4 value="G_xyxm/sounds/bgm/bgm4.mp3" />
+		
+		<effect_cannon_switch value="G_xyxm/sounds/effect/cannonSwitch.mp3" />
+		<effect_casting value="G_xyxm/sounds/effect/casting.mp3" />
+		<effect_catch value="G_xyxm/sounds/effect/catch.mp3" />
+		<effect_fire value="G_xyxm/sounds/effect/fire.wav" />
+		
+		<effect_Animal0 value="Animal/Animal/name_ef/0.mp3" />
+		<effect_Animal1 value="Animal/Animal/name_ef/1.mp3" />
+		<effect_Animal2 value="Animal/Animal/name_ef/2.mp3" />
+		<effect_Animal3 value="Animal/Animal/name_ef/3.mp3" />
+		<effect_Animal4 value="Animal/Animal/name_ef/4.mp3" />
+		<effect_Animal5 value="Animal/Animal/name_ef/5.mp3" />
+		<effect_Animal6 value="Animal/Animal/name_ef/6.mp3" />
+		<effect_Animal7 value="Animal/Animal/name_ef/7.mp3" />
+		<effect_Animal8 value="Animal/Animal/name_ef/8.mp3" />
+		<effect_Animal13 value="Animal/Animal/name_ef/9.mp3" />
+		<effect_Animal12 value="Animal/Animal/name_ef/10.mp3" />
+		<effect_Animal11 value="Animal/Animal/name_ef/11.mp3" />
+		<effect_Animal10 value="Animal/Animal/name_ef/12.mp3" />
+		<effect_Animal9 value="Animal/Animal/name_ef/13.mp3" />
+		<effect_Animal14 value="Animal/Animal/name_ef/14.mp3" />
+		<effect_Animal15 value="Animal/Animal/name_ef/15.mp3" />
+		
+		
+		<effect_superarm value="G_xyxm/sounds/effect/superarm.mp3" />
+		<!--rotaryturn value="G_xyxm/sounds/effect/rotaryturn.mp3" /-->
+		<effect_bingo value="G_xyxm/sounds/effect/music_win_01.mp3" />
+		<effect_wave value="G_xyxm/sounds/effect/scene_change.wav" />
+		
+	</Sound>
+
+	<!--//////////////////////游戏参数/////////////////////////////////////-->
+	
+	<Config>
+		<!--加载进度条位置-->
+		<LoadingPosX value="366" />
+		<LoadingPosY value="56" /><!--438-->
+
+		<!--;是否显示场景的活动效果，比如水草，珊瑚等-->
+		<ShowSceneEffect1 value="1" />
+		<ShowSceneEffect2 value="1" />
+		<ShowSceneEffect3 value="1" />
+	</Config>
+
+</root>
